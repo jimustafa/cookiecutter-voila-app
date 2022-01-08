@@ -1,0 +1,6 @@
+{
+  "project_name": "My Voila App",
+  "__project_slug": "{{ cookiecutter.project_name | slugify() }}",
+  "preset": ["basic", "scientific"],
+  "_extensions": ["extensions.python_version.PythonVersionExtension"]
+}

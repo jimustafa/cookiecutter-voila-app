@@ -1,0 +1,10 @@
+cookiecutter
+ipykernel
+jupytext
+pip-tools
+pre-commit
+pytest
+pytest-cookies
+pytest-venv
+sh
+voila

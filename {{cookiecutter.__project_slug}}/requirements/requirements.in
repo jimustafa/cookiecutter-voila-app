@@ -1,0 +1,18 @@
+{% if cookiecutter.preset == 'basic' -%}
+ipykernel
+jupytext
+nbclient==0.6.8
+voila
+{%- endif %}
+{%- if cookiecutter.preset == 'scientific' -%}
+ipykernel
+ipympl
+ipyvuetify
+ipywidgets
+jupytext
+matplotlib
+nbclient==0.6.8
+numpy
+scipy
+voila
+{%- endif %}
